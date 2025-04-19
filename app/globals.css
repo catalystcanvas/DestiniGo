@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-heading font-semibold font-manrope;
+  }
+
+  h2 {
+    @apply text-subheading font-semibold font-manrope;
+  }
+
+  h3 {
+    @apply text-subheading font-medium font-manrope;
+  }
+
+  p {
+    @apply text-body font-manrope;
+  }
+
+  small {
+    @apply text-small font-manrope;
+  }
+}
+
+html, body {
+  font-family: var(--font-manrope) !important;
+}
+
+
+.perspective {
+    perspective: 1000px;
+  }
+  
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .hover\:rotate-y-180:hover {
+    transform: rotateY(180deg);
+  }
+  
