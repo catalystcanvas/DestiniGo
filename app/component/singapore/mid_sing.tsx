@@ -22,7 +22,7 @@ const StudyInSingapore = () => {
               alt="Study in singapore"
               width={500}
               height={350}
-              className="object-cover absolute inset-0"
+              className="object-cover absolute inset-0 w-full h-full"
             />
           </div>
         </div>
@@ -30,7 +30,9 @@ const StudyInSingapore = () => {
         {/* Description */}
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold text-red-600 mb-4">Study in Singapore</h2>
-          <p className="text-gray-700 text-justify leading-relaxed tracking-normal max-w-full md:max-w-[800px] lg:max-w-[900px] hyphens-auto">
+          <p className="text-gray-700 text-justify leading-relaxed tracking-normal w-full max-w-full md:max-w-[900px] lg:max-w-[1100px] mx-auto px-4 
+  hyphens-auto lg:hyphens-none 
+  [text-align-last:left]">
             Singapore is a globally recognized education hub, renowned for its world-class
             universities, technological advancements, and strong industry connections. As a bridge
             between the East and West, the country offers a highly competitive, research-driven education,

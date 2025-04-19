@@ -35,7 +35,9 @@ const StudyInNewZealand = () => {
         {/* Description */}
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold text-red-600 mb-4">Study in New Zealand</h2>
-          <p className="text-gray-700 text-justify leading-relaxed tracking-normal max-w-full md:max-w-[800px] lg:max-w-[900px] hyphens-auto">
+          <p className="text-gray-700 text-justify leading-relaxed tracking-normal w-full max-w-full md:max-w-[900px] lg:max-w-[1100px] mx-auto px-4 
+  hyphens-auto lg:hyphens-none 
+  [text-align-last:left]">
             New Zealand is a leading study destination, recognized for its world-class education system, 
             safe environment, and exceptional quality of life. The country offers internationally accredited 
             degrees, extensive research opportunities, and a student-centered learning approach. With high 

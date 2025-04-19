@@ -95,9 +95,9 @@ const ImpactSection_usa = () => {
                   <img
                     src={uni.image}
                     alt={uni.name}
-                    width={400}
-                    height={250}
-                    className="object-cover absolute inset-0"
+                    width="384"
+                    height="224"
+                    className="w-full h-full object-cover"
                   />
                   
                   {/* University Name Box */}

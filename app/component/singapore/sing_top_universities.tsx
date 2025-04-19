@@ -94,9 +94,9 @@ const ImpactSection_singapore = () => {
                   <img
                     src={uni.image}
                     alt={uni.name}
-                    width={500}
-                    height={350}
-                    className="object-cover absolute inset-0"
+                    width="384"
+                    height="224"
+                    className="w-full h-full object-cover"
                   />
 
                   {/* University Name Box */}

@@ -247,7 +247,7 @@ const Header = () => {
   ].map((country, index) => (
     <li key={index}>
       <Link
-        href={`/countries/${country.toLowerCase()}`}
+        href={`/countries/${country.toLowerCase().replace(/\s+/g, "-")}`}
         className="block px-4 py-2 text-black hover:bg-gray-100"
       >
         {country}

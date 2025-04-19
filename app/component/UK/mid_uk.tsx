@@ -22,7 +22,7 @@ const StudyInUK = () => {
               alt="Study in UK"
               width={500}
               height={350}
-              className="object-cover absolute inset-0"
+              className="object-cover absolute inset-0 w-full h-full"
             />
           </div>
         </div>
@@ -30,7 +30,9 @@ const StudyInUK = () => {
         {/* Description */}
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold text-red-600 mb-4">Study in UK</h2>
-          <p className="text-gray-700 text-justify leading-relaxed tracking-normal max-w-full md:max-w-[800px] lg:max-w-[900px] hyphens-auto">
+          <p className="text-gray-700 text-justify leading-relaxed tracking-normal w-full max-w-full md:max-w-[900px] lg:max-w-[1100px] mx-auto px-4 
+  hyphens-auto lg:hyphens-none 
+  [text-align-last:left]">
             The United Kingdom is home to some of the world’s most prestigious universities, 
             including Oxford, Cambridge, and Imperial College London. With a rich academic heritage 
             and globally recognized degree programs, the UK attracts students from across the globe. 

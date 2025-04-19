@@ -94,9 +94,9 @@ const ImpactSection_uk = () => {
                   <img
                     src={uni.image}
                     alt={uni.name}
-                    width={500}
-                    height={350}
-                    className="object-cover absolute inset-0"
+                    width="384"
+                    height="224"
+                    className="w-full h-full object-cover"
                   />
                   {/* University Name Box */}
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-lg font-bold px-8 py-2 rounded-lg shadow-md whitespace-nowrap">

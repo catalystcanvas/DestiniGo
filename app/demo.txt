@@ -1,0 +1,18 @@
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+
+
+const PageTemplate = () => {
+  return (
+    <div>
+      <h1>Page Title</h1>
+    </div>
+  );
+};
+
+export default PageTemplate;
+
+bg-gradient-to-br from-white via-[#b0cfff] to-[#94b9ff]
+bg-[#FAF3E0] 
+bg-green-200

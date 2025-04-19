@@ -6,7 +6,7 @@ const ImpactSection_canada = () => {
   const universities = [
     { name: 'University of Alberta', image: '/images/countries/canada/colleges/alberta.webp' },
     { name: 'The University of British Columbia', image: '/images/countries/canada/colleges/colombia.webp' },
-    { name: 'Dalhousie University', image: '/images/countries/canada/colleges/dalhousie.jpg' },
+    { name: 'Dalhousie University', image: '/images/countries/canada/colleges/dalhousie.webp' },
     { name: 'McGill University', image: '/images/countries/canada/colleges/mcgill.webp' },
     { name: 'University of Ottawa', image: '/images/countries/canada/colleges/ottawa.webp' },
     { name: 'University of Toronto', image: '/images/countries/canada/colleges/toronto.webp' },
@@ -92,9 +92,9 @@ const ImpactSection_canada = () => {
                   <img
                     src={uni.image}
                     alt={uni.name}
-                    width={384}
-                    height={224}
-                    className="w-full h-full object-cover rounded-lg"
+                    width="384"
+                    height="224"
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-lg font-bold px-8 py-2 rounded-lg shadow-md whitespace-nowrap">
                     {uni.name}

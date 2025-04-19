@@ -21,7 +21,7 @@ const StudyInUSA = () => {
               alt="Study in the USA"
               width={500}
               height={350}
-              className="object-cover absolute inset-0"
+              className="object-cover w-full h-full absolute inset-0"
             />
           </div>
         </div>
@@ -37,7 +37,9 @@ const StudyInUSA = () => {
               Study in USA
             </motion.h2>
           )}
-          <p className="text-gray-700 text-justify leading-relaxed tracking-normal max-w-full md:max-w-[800px] lg:max-w-[900px] hyphens-auto">
+          <p className="text-gray-700 text-justify leading-relaxed tracking-normal w-full max-w-full md:max-w-[900px] lg:max-w-[1100px] mx-auto px-4 
+  hyphens-auto lg:hyphens-none 
+  [text-align-last:left]">
             The United States is a leading study destination for international students, 
             renowned for its top-ranked universities, advanced research facilities, and a 
             strong culture of innovation and entrepreneurship. With prestigious institutions 

@@ -91,9 +91,9 @@ const ImpactSection = () => {
                   <img
                     src={uni.image}
                     alt={uni.name}
-                    width={384} // Adjust the width to fit your design
-                    height={224} // Adjust the height to fit your design
-                    className="object-cover"
+                    width="384"
+                    height="224"
+                    className="w-full h-full object-cover"
                   />
 
                   {/* University Name Box */}

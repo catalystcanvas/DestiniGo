@@ -31,7 +31,9 @@ const StudyInAustralia = () => {
           <h2 className="text-2xl sm:text-3xl font-bold text-red-600 mb-3 md:mb-4">
             Study in Australia
           </h2>
-          <p className="text-gray-700 text-justify leading-relaxed tracking-normal max-w-full md:max-w-[800px] lg:max-w-[900px] hyphens-auto">
+          <p className="text-gray-700 text-justify leading-relaxed tracking-normal w-full max-w-full md:max-w-[900px] lg:max-w-[1100px] mx-auto px-4 
+  hyphens-auto lg:hyphens-none 
+  [text-align-last:left]">
             Australia is among the top study destinations for international students, offering
             high-quality education, cultural diversity, and excellent career prospects. The country
             is home to leading universities, state-of-the-art research facilities, and a high standard
