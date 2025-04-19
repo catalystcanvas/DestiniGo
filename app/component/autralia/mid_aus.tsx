@@ -17,7 +17,7 @@ const StudyInAustralia = () => {
         <div className="relative w-full md:w-1/2 flex justify-center">
           <div className="rounded-lg overflow-hidden shadow-lg transform rotate-2 hover:rotate-0 transition duration-300 w-full sm:w-[400px] md:w-[450px] lg:w-[500px] h-[250px] sm:h-[300px] md:h-[350px] relative">
             <img
-              src="/images/countries/australia/australia_intro.webp"
+              src="/images/countries/australia/Australia_intro.webp"
               alt="Study in Australia"
               width="100%"
               height="100%"
