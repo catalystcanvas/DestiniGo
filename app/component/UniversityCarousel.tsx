@@ -84,7 +84,7 @@ const ImpactSection = () => {
     },
     { 
       name: 'UIUC-USA', 
-      image: '/images/top_colleges/home/uiuc.webp',
+      image: '/images/top_colleges/home/UIUC.webp',
       shortlisted: 110,
       scholarshipRecipients: 60,
       review: {
