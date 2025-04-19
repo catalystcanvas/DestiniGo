@@ -17,18 +17,15 @@ const StudyInNewZealand = () => {
         {/* Image with Creative Styling */}
         <div className="relative w-full md:w-1/2 flex justify-center">
           <div className="rounded-lg overflow-hidden shadow-lg transform rotate-2 hover:rotate-0 transition duration-300 w-full sm:w-[400px] md:w-[450px] lg:w-[500px] h-[250px] sm:h-[300px] md:h-[350px] relative">
-            {isClient && (
-              <motion.img
+            
+              <img
                 src="/images/countries/newzealand/newzealand_intro.webp"
                 alt="Study in New Zealand"
-                width={500}
-                height={350}
-                className="object-cover absolute inset-0"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
+                width="500"
+              height="350"
+              className="object-cover absolute inset-0 w-full h-full"
               />
-            )}
+            
           </div>
         </div>
 
