@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 // import { motion } from "framer-motion";
 
 const StudyInNewZealand = () => {
-  const [isClient, setIsClient] = useState(false);
+  // const [isClient, setIsClient] = useState(false);
 
   // useEffect(() => {
   //   setIsClient(true); // Ensure that animations are only triggered client-side
