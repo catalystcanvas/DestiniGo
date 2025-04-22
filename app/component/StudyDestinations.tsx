@@ -6,7 +6,7 @@ const countries = [
   { country: "Australia", desc: "Join globally recognized institutions with great career prospects and a high standard of living.", link: "/countries/australia" },
   { country: "Canada", desc: "Study in a friendly and multicultural society with strong post-study work opportunities.", link: "/countries/canada" },
   { country: "Europe", desc: "Access affordable, high-quality education with multi-country exposure and rich cultural diversity.", link: "/countries/europe" },
-  { country: "NewZealand", desc: "Enjoy a high-quality education, breathtaking landscapes, and a safe, welcoming environment for international students.", link: "/countries/newzealand" },
+  { country: "New Zealand", desc: "Enjoy a high-quality education, breathtaking landscapes, and a safe, welcoming environment for international students.", link: "/countries/new-zealand" },
   { country: "Singapore", desc: "Pursue education in a globally connected hub with top-notch universities and strong job prospects.", link: "/countries/singapore" },
   { country: "UK", desc: "Study at world-class universities with a rich history, research opportunities, and vibrant student life.", link: "/countries/uk" },
   { country: "USA", desc: "Experience diverse culture, innovative education, and vast career opportunities in top-ranked universities.", link: "/countries/usa" }
