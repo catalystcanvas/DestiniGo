@@ -1,14 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const StudyInNewZealand = () => {
   const [isClient, setIsClient] = useState(false);
 
-  useEffect(() => {
-    setIsClient(true); // Ensure that animations are only triggered client-side
-  }, []);
+  // useEffect(() => {
+  //   setIsClient(true); // Ensure that animations are only triggered client-side
+  // }, []);
 
   return (
     <section className="max-w-6xl mx-auto p-8">
